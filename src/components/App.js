@@ -26,16 +26,19 @@ class App extends Component {
     return (
       <div className="App">
         <Form inline>
-          <h2>Input Your Birthday!</h2>
+          <h2 className="main-title">Input Your Birthday!</h2>
+          <div className="input-div">
           <FormControl
             type="date"
             onChange={event => this.setState({ newDate: event.target.value })}
+            className="input-month"
             >
             </FormControl>
           {' '}
-          <Button onClick={() => this.changeBirthday()}>
+          <Button className="button-submit" onClick={() => this.changeBirthday()}>
             Submit
           </Button>
+        </div>
           {
 
             this.state.showStats ?

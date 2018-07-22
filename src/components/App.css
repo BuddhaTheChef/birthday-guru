@@ -1,5 +1,5 @@
 html {
-  background-color: grey;
+  background-color: rgb(17, 135, 186);
   height: 100%;
 }
 
@@ -7,13 +7,56 @@ html {
   padding: 5%;
   text-align: center;
   font-size: 17px;
-  background-color: grey;
+  background-color: rgb(17, 135, 186);
   height: 100%;
 }
 
+.main-title {
+  font-size: 50px;
+  color: whitesmoke;
+  text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+  font-family: 'Bungee Shade', cursive;
+}
+
+.input-div {
+width: 100%;
+margin-top: 4%;
+}
+
+.input-month {
+  width: 37%!important;
+  border: solid black 1px;
+  font-size: 20px;
+  box-shadow: 0px 13px 34px 4px rgba(0,0,0,.3);
+}
+
+.button-submit {
+  border: solid black 1px;
+  box-shadow: 0px 13px 34px 4px rgba(0,0,0,.3);
+}
+
 .party-pic {
-  width: 400px;
+  width: 673px;
   height: 400px;
+  position: fixed;
+  left: 30%;
+  top: 25.7%;
+  z-index: 0;
+}
+
+.post-div {
+  margin-top: 202px;
+  color: whitesmoke;
+  text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+  font-size: 50px;
+}
+
+.post-date {
+  font-size: 40px;
+}
+
+.post-date-since {
+ font-size: 20px;
 }
 
 .fade {
