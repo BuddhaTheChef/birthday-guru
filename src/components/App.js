@@ -9,7 +9,7 @@ class App extends Component {
 
     this.state = {
       newDate : '',
-      birthday: '1996-06-25',
+      birthday: '06-25-1996',
       showStats: false
     }
   }

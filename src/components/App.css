@@ -25,6 +25,7 @@ margin-top: 4%;
 
 .input-month {
   width: 37%!important;
+  height: 40px;
   border: solid black 1px;
   font-size: 20px;
   box-shadow: 0px 13px 34px 4px rgba(0,0,0,.3);
@@ -32,6 +33,7 @@ margin-top: 4%;
 
 .button-submit {
   border: solid black 1px;
+  height: 40px;
   box-shadow: 0px 13px 34px 4px rgba(0,0,0,.3);
 }
 
@@ -40,12 +42,12 @@ margin-top: 4%;
   height: 400px;
   position: fixed;
   left: 30%;
-  top: 25.7%;
+  top: 26.5%;
   z-index: 0;
 }
 
 .post-div {
-  margin-top: 202px;
+  margin-top: 208px;
   color: whitesmoke;
   text-shadow: 0 0 3px #000000, 0 0 5px #000000;
   font-size: 50px;
@@ -56,7 +58,7 @@ margin-top: 4%;
 }
 
 .post-date-since {
- font-size: 20px;
+ font-size: 19px;
 }
 
 .fade {
